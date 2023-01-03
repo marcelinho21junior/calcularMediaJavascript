@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <title>Calcular Média</title>
+</head>
+<body>
+    <h1>Calcular Média</h1>
+    <div class="containerPInput">
+        <p>Nota 1</p>
+        <input type="number" id="nota1" max="10" min="0">
+        <p>Nota 2</p>
+        <input type="number" id="nota2">
+    </div>
+    <div class="containerButtons">
+        <button onclick="calcular()">Calcular</button>
+        <button onclick="limpar()">Limpar</button>
+    </div>
+    <div class="containerMedia">
+        <p>Média</p>
+        <div class="containerMediaSpan">
+            <span id="media">1</span>
+        </div>
+    </div>
+    <span class="situation" id="situation">Situação Final</span>
+    <script src="./script.js"></script>
+</body>
+</html>

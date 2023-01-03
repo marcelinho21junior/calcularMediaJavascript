@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(0,23,36);
+background: linear-gradient(90deg, rgb(1, 45, 71) 25%, rgb(29, 29, 130) 46%, rgb(141, 192, 202) 100%);
+color: white;
+}
+
+.containerPInput{
+    width: 60%;
+}
+
+.containerPInput p{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.containerPInput input{
+    width: 95%;
+    height: 35px;
+    padding: 8px;
+    border-radius: 3px;
+    border: none;
+    font-size: 22px;
+}
+
+.aprovado{
+    background-color: green;
+}
+
+.containerButtons{
+    width: 30%;
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.containerButtons button{
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.containerButtons button:nth-child(1){
+    background-color: rgb(0, 0, 133);
+    color: white;
+}
+
+.containerButtons button:nth-child(2){
+    background-color: orangered;
+    color: white;
+}
+
+.containerMedia{
+    text-align: center;
+    width: 20%;
+}
+
+.containerMediaSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    color: black;
+    height: 30px;
+    background-color: aliceblue;
+}
+
+.containerMedia p{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.containerMedia span{
+    width: 100%;
+    background-color: aliceblue;
+}
+
+.situation{
+    padding: 10px 60px;
+    border-radius: 3px;
+    margin: 20px 0px;
+    background-color: rgb(231, 231, 231);
+    color: rgb(168, 168, 168);
+}
